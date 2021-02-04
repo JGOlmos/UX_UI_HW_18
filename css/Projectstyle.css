@@ -43,11 +43,12 @@ li{
     padding-left: 20px;
 }
 
-li:hover{
+.navHover:hover{
     color: #AC8887;
     border-bottom: 3px solid #AC8887;
-
 }
+
+
 
 h1{
     font-family: 'ClassyBrune';
@@ -133,6 +134,8 @@ button:hover{
     background-image:url("../images/WDTRAVimage.png");
     margin: 3vh;
     width: 100%;
+    border-right: 15px solid #AC8887;
+    border-bottom: 15px solid #AC8887
 }
 
 .projectText{
@@ -150,12 +153,16 @@ button:hover{
     grid-area: secondrow;
     background-image: url("../images/FooDBR.png");
     margin: 3vh;
-    width: 100%;
+
+    border-right: 15px solid #AC8887;
+    border-bottom: 15px solid #AC8887
 }
 
 .thirdrow{
     grid-area: thirdrow;
     background-image: url("../images/FCC_mockupcollection.png");
+    border-right: 15px solid #AC8887;
+    border-bottom: 15px solid #AC8887;
     margin: 3vh;
     height: 100%;
 }
@@ -167,6 +174,9 @@ button:hover{
     align-items: center;
     display: flex;
     position: relative;
+    border-radius: 10px;
+    /* border-right: 15px solid #AC8887;
+    border-bottom: 15px solid #AC8887; */
   }
 
   @media only screen and (max-width: 600) {
