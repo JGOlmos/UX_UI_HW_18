@@ -132,7 +132,7 @@ button:hover{
 .toprow{
     grid-area: toprow;
     background-image:url("../images/WDTRAVimage.png");
-    margin: 3vh;
+    margin: 4.5vh;
     width: 100%;
     border-right: 15px solid #AC8887;
     border-bottom: 15px solid #AC8887
@@ -147,6 +147,7 @@ button:hover{
     padding: 1vh;
     max-width: 250px;
     z-index: 75;
+    border-radius: 4px;
 }
 
 .secondrow{
